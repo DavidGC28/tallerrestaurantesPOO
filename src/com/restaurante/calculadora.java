@@ -1,0 +1,28 @@
+package com.restaurante;
+
+public class calculadora {
+    
+    public double sumar(int a, int b) {
+        double resultado;
+        resultado = a + b;
+        return resultado;
+    }
+    
+    public double restar(int a, int b) {
+        double resultado;
+        resultado = a - b;
+        return resultado;
+    }
+    
+    public double multiplicar(int a, int b) {
+        double resultado;
+        resultado = a * b; 
+        return resultado;
+    }
+
+    public double dividir(int a, int b) {
+        double resultado;
+        resultado = (double) a / b; 
+        return resultado;
+    }
+}
